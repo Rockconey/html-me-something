@@ -1,3 +1,18 @@
 body {
     background-color: palegoldenrod;
+    margin: 70px;
+    font-size: 44px;
+
+}
+
+
+ h1 { 
+    
+    font-size: 44px;
+	text-transform: uppercase;
+	text-align: center;
+
+    border: 1px solid red;
+    margin: 10px;
+    padding: 5px;
 }
