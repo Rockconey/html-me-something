@@ -4,27 +4,56 @@
     <head>
         <title>The JavaScript Coder's Bestiary</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+        
     </head>
 
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>The JavaScript Coder's Bestiary</h1>
+        </div>
+      </div>
+
     <body>
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Menu
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="images/Assignment Abomination by Kellepics on Pixabay.jpg">The Assignment Abomination</a>
+                <a href="#">The Iteration Snatcher</a>
+                <a href="#">The Infinity Demon</a>
+              </div>
+            </div>
+          </div>
         <header>
-            <h1>The JavaScript Coder's Bestiary</h1>
-            <figure>
-                <img src="images/here-be-monsters.png" alt="A bit of code with the words 'Below Be Monsters'.">
-                <figcaption>Below Be Monsters</figcaption> 
-            </figure>
+            
+
+            <p id=introGraph>
+                
+                The following bestiary was first discovered in the papers of Doris Smealler. The early entries were written
+                in a highly calligraphic style and the illustrations were done with pen and ink. At present, the papers and illustrations are
+                far too fragile for even digital reproduction. The work was then continued by her nephew, Laird Smealler. The words are still
+                Doris’s but we have used Laird’s images which were stored on floppy disks—a type of storage device that was highly destructible. 
+                <br>
+                After Laird's death, the papers and floppy disks were bequeathed to the Institute for the Discovery and Dissemenation of Data on
+                the Existence of Computable Demons<sup><a href="#fn1" id="ref1">1</a></sup>. They are presented in their original
+                form without editing for use as historical context and should not be referenced or cited as fact. Any attempt to do so will be punished
+                under the Warren Act. For a more up-to-date reference please see Mel Helmguard's Codex of Binary<sup><a href="#fn2" id="ref2">2</a></sup> Creatures.
+
+            </p>
         </header>
         <main>
-            <p>The following bestiary was first discovered in the papers and floppy disks of Doris Smealler that were bequeathed
-                to the Institute for the Discovery and Dissemenation of Data on the Existence of Computable Demons<sup><a href="#fn1" id="ref1">1</a></sup> after her death.
-                They are presented in their original form without editing for use as a historical context.
-                For a more up-to-date reference please see Mel Helmguard's Codex of Binary<sup><a href="#fn2" id="ref2">2</a></sup> Creatures.</p>
+            
 
             <article>
-                <h2>The Assignment Abomination</h2>
+                <h2 id="assignAbom">The Assignment Abomination</h2>
                 <firgure>
-                    <img src = "images/Assignment Abomination by Kellepics on Pixabay.jpg" alt="A young girl looking away while a large horned creature approaches.">
+                    <img src = "images/Assignment Abomination by Kellepics on Pixabay.jpg" id="imgOne" alt="A young girl looking away while a large horned creature approaches.">
                     <figcaption>Image by Kellepics on Pixabay.</figcaption>
                 </firgure>
 
@@ -32,9 +61,10 @@
                     screens and loves to hide behined popup windows in your browser. They will often wait until 
                     the coder is ready to run their code and then will eat all but one '=' in a line of code, causing
                     the equality to read like an assignment. Assignment Abominations target new coders and experienced
-                    coders alike, and when caught in the act will often make rude noises and obscene hand gestures.</p>
-
-                <p>It can be extremely tempting for the coder to blame this mistake on themselves, increasing the 
+                    coders alike, and when caught in the act will often make rude noises and obscene hand gestures.
+                    <br>
+                    <br>
+                    It can be extremely tempting for the coder to blame this mistake on themselves, increasing the 
                     coder's imposter syndrome. The coder must <em>never</em> accept blame for this. It is <em>always</em>
                     the fault of the Assignment Abomination.<sup><a href="#fn3" id="ref3">3</a></sup>
                 </p>    
@@ -48,15 +78,16 @@
                 <h2>The Iteration Snatcher</h2>
 
                 <figure>
-                    <img src = "images/Iteration Snatcher MemoryCatcher on Pixabay.jpg" alt="A black tentacle rising and curling out of the water.">
+                    <img src = "images/Iteration Snatcher MemoryCatcher on Pixabay.jpg" id="snatcher" alt="A black tentacle rising and curling out of the water.">
                     <figCaption>Image by MemoryCatcher on Pixabay</figCaption>
                 </figure>
 
                 <p>The <strong>Iteration Snatcher</strong> can be harder to catch than most computable demons. It lurks beneath the code and will extend
                     only one tentacle at a time. Don&apos;t be fooled into thinking that because you only see a part of the Iteration Snatcher
-                    at a time that it is a lesser beast. Much like an iceberg, the true danger lies beneath the code.</p>
-                    
-                <p>This wiley demon will not only steal your [i] from your loop, at times it will place it in the wrong spot. Think you&apos;re
+                    at a time that it is a lesser beast. Much like an iceberg, the true danger lies beneath the code.
+                    <br>
+                    <br>
+                    This wiley demon will not only steal your [i] from your loop, at times it will place it in the wrong spot. Think you&apos;re
                     iterating through commands? Look again, that horrible monster has moved your [i] from your commands to your commandType. The
                     fiend!<sup><a href="#fn4" id="ref4">4</a></sup> </p>    
                 
@@ -73,9 +104,10 @@
 
                 <p>The Infinity Demon is another loop creature. He is even more insidious than the Iteration Snatcher
                     and more cruel than the Assignment Abomination. If this nasty beast gets into your code beware--you will
-                    become stuck in an infinite loop, lost in space and time and you will never, ever get out.<sup><a href="#fn6" id="ref6">6</a></sup></p>
-
-                <p>No one can say what exactly an Infinity Demon looks like as there has never been anyone who has seen it and
+                    become stuck in an infinite loop, lost in space and time and you will never, ever get out.<sup><a href="#fn6" id="ref6">6</a></sup>
+                    <br>
+                    <br>
+                    No one can say what exactly an Infinity Demon looks like as there has never been anyone who has seen it and
                     been able to tell anyone else. If you suspect that your code has attracted an infinity demon, throw it away
                     and give up.<sup><a href="#fn7" id="ref7">7</a></sup>
                 </p>    
@@ -93,9 +125,10 @@
 
                 <p>Doris was born in Witchita Kansas to Emily and Ned Smealler. She graduated with top honors form
                     the Michigan Institute for Technological Innovation and Supernatural Inquiry and continued to innovate
-                    in both the field of abstract coding and Micro-Entity discovery.</p>
-
-                <p>Sadly, most of the work in her later life should be disregarded as it was discovered during her autopsy
+                    in both the field of abstract coding and Micro-Entity discovery.
+                    <br>
+                    <br>
+                    Sadly, most of the work in her later life should be disregarded as it was discovered during her autopsy
                     that she suffered from advanced prion disease.
                 </p>    
 
@@ -111,22 +144,23 @@
    
        <p><sup id="fn1">1. [It was subsequently discovered in 2010 that the entities previously referred to as Demons
             were, in fact, not demonic in nature. However, by the point in time the institue was infamous
-            enough they were hesitant to change their name to something more suiting.]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup></p> 
+            enough they were hesitant to change their name to something more suiting.]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 
         
-        <p>><sup id="fn2">2. [Helmguard has stated that there is a new edition of his codex coming out in April of 2020. This codex will delineate a clearer line between the binary nature of computing and the entities themselves who may not identify in a binary way.]<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup></p>
-        
-        <p>><sup id="fn3">3. [Subsequent research has shown that in many, if not most, cases the lack of the appropriate number of = is in fact the coder's fault.]<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup></p>
-
-        <p><sup id="fn4">4. [Thomas Whitnot is credited with the discovery that the Iteration Snatcher is actually just a widely maligned
+        <br>
+        <sup id="fn2">2. [Helmguard has stated that there is a new edition of his codex coming out in April of 2020. This codex will delineate a clearer line between the binary nature of computing and the entities themselves who may not identify in a binary way.]<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup>
+        <br>
+        <sup id="fn3">3. [Subsequent research has shown that in many, if not most, cases the lack of the appropriate number of = is in fact the coder's fault.]<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup>
+        <br>
+        <sup id="fn4">4. [Thomas Whitnot is credited with the discovery that the Iteration Snatcher is actually just a widely maligned
                              cephalapod. They are quite playful, and do like to pull tricks, but when the [i] is missing from a loop it
                              is, once again, the coder's fault. The snatcher, if encountered, will usually behave if given and html entity
-                             to play with.]<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup></p>
-
-        <p><sup id="fn5">5. [Due to certain popular media figures, there has been a recent push to rename the Infinity Demon. However, due to copyright laws we cannot honor that request. Please refrain from sending petitions.]<a href="#ref5" title="Jump back to footnote 5 in the text.">↩</a></sup></p>
-        
-        <p><sup id="fn6">6. [Please, do not panic. If you do get stuck in an infinite loop you will probably be able to get out by pressing ctrl+c.]<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup></p>
-
-        <p><sup id="fn7">7. [Please don't do this.]<a href="#ref7" title="Jump back to footnote 7 in the text.">↩</a></sup></p>
-
+                             to play with.]<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup>
+        <br>
+        <sup id="fn5">5. [Due to certain popular media figures, there has been a recent push to rename the Infinity Demon. However, due to copyright laws we cannot honor that request. Please refrain from sending petitions.]<a href="#ref5" title="Jump back to footnote 5 in the text.">↩</a></sup>
+        <br>
+        <sup id="fn6">6. [Please, do not panic. If you do get stuck in an infinite loop you will probably be able to get out by pressing ctrl+c.]<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup>
+        <br>
+        <sup id="fn7">7. [<strong>Please don't do this.</strong>]<a href="#ref7" title="Jump back to footnote 7 in the text.">↩</a></sup>
+        </p>
     </footer>
 </html>
